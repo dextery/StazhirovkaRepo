@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "StazherTestForLibrary/1.0.0": {
+        "dependencies": {
+          "StazherTest": "1.0.0"
+        },
+        "runtime": {
+          "StazherTestForLibrary.dll": {}
+        }
+      },
+      "StazherTest/1.0.0": {
+        "runtime": {
+          "StazherTest.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StazherTestForLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StazherTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

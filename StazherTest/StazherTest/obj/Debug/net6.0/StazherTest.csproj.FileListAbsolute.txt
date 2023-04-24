@@ -1,0 +1,12 @@
+C:\Users\Зупник Егор\source\repos\StazherTest\StazherTest\bin\Debug\net6.0\StazherTest.deps.json
+C:\Users\Зупник Егор\source\repos\StazherTest\StazherTest\bin\Debug\net6.0\StazherTest.dll
+C:\Users\Зупник Егор\source\repos\StazherTest\StazherTest\bin\Debug\net6.0\StazherTest.pdb
+C:\Users\Зупник Егор\source\repos\StazherTest\StazherTest\obj\Debug\net6.0\StazherTest.csproj.AssemblyReference.cache
+C:\Users\Зупник Егор\source\repos\StazherTest\StazherTest\obj\Debug\net6.0\StazherTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Зупник Егор\source\repos\StazherTest\StazherTest\obj\Debug\net6.0\StazherTest.AssemblyInfoInputs.cache
+C:\Users\Зупник Егор\source\repos\StazherTest\StazherTest\obj\Debug\net6.0\StazherTest.AssemblyInfo.cs
+C:\Users\Зупник Егор\source\repos\StazherTest\StazherTest\obj\Debug\net6.0\StazherTest.csproj.CoreCompileInputs.cache
+C:\Users\Зупник Егор\source\repos\StazherTest\StazherTest\obj\Debug\net6.0\StazherTest.dll
+C:\Users\Зупник Егор\source\repos\StazherTest\StazherTest\obj\Debug\net6.0\refint\StazherTest.dll
+C:\Users\Зупник Егор\source\repos\StazherTest\StazherTest\obj\Debug\net6.0\StazherTest.pdb
+C:\Users\Зупник Егор\source\repos\StazherTest\StazherTest\obj\Debug\net6.0\ref\StazherTest.dll
