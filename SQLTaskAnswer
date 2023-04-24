@@ -1,0 +1,44 @@
+USE testdb
+
+CREATE TABLE Product
+(
+  Id INT PRIMARY KEY,
+  Name NVARCHAR(20)
+);
+
+CREATE TABLE Customers
+(
+  Id INT PRIMARY KEY,
+  Name NVARCHAR(20)
+);
+
+INSERT INTO Product
+VALUES
+  (1, 'Esonic G31CHL3'),
+  (2, 'PNY Nvidia A100 40GB (TCSA100M)'),
+  (3, 'Intel Core i9-12900K'),
+  (4, 'iPhone 14 Pro Max');
+
+INSERT INTO Category
+VALUES
+  (1, 'Видеокарта'),
+  (2, 'Материнская плата'),
+  (3, 'Процессор'),
+  (4, 'Смартфон');
+
+CREATE TABLE ProductCategory
+(
+  Id INT PRIMARY KEY,
+  ProductId INT REFERENCES Product (Id),
+  CategoryId INT REFERENCES Category (Id)
+);
+
+INSERT INTO ProductCategory
+VALUES
+  (1, 2),
+  (2, 1),
+  (3, 3);
+
+SELECT Produ.Name, Cat.Name FROM Product Produ
+LEFT JOIN ProductCategory ProCat ON Produ.Id = ProCat.ProductId
+LEFT JOIN Category Cat ON ProCat.CategoryId = Cat.Id;
